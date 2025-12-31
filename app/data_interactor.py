@@ -1,6 +1,8 @@
 from pymongo import MongoClient
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 # Details connection
 MONGO_HOST = os.getenv('MONGO_HOST','localhost')
 MONGO_PORT = os.getenv('MONGO_PORT','27017')

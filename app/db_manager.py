@@ -1,6 +1,9 @@
 from data_interactor import MongoDB
 from bson import ObjectId
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 MONGO_DB = os.getenv('MONGO_DB','contactdb')
 
