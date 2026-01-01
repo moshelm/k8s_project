@@ -14,5 +14,3 @@ services:
       - MONGO_DB=contactsdb
     depends_on:
       - mongodb
-    # env_file: .env
-  
